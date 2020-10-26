@@ -55,7 +55,7 @@ int main()
     else if (ds >= 00)
     {
         printf("Dönem sonu ortalamanız: %.2f\n", ds);
-        printf("FF ile dersten kaldınız geçmiş olsun bu zekayla üniversite kazanmanız bile garip\n");
+        printf("FF ile dersten kaldınız\n");
     }
     else 
     {
