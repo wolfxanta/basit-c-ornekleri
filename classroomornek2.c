@@ -1,12 +1,7 @@
 #include <stdio.h>
 
-//int main yerine void main olarak tanımladık  
-
-void main() 
+int main() 
 {
-    printf("*\t*\n*\t*\n*\t*\n*\t*\n*********\n*\t*\n*\t*\n*\t*\n*\t*\n");
-    printf("======================================\n");
-
     float boy;
     int kilo;
     double vki;
@@ -51,24 +46,5 @@ void main()
         printf("====================================\n");
     }
 
-
-
-    int x,y,toplam,carpim,bolum,bolumKalan;
     
-    printf("İlk sayiyi giriniz(Buyuk olan sayi) : ");
-    scanf("%d",&x);
-    printf("İkinci sayiyi giriniz(Kucuk olan sayi) :");
-    scanf("%d",&y);
-    
-    toplam = x + y;
-    carpim = x * y;
-    bolum = x / y;
-    bolumKalan = x % y;
-    
-    float bolum = (float)sayi1 / (float)sayi2;   //Küsüratlı işlemlerde format değişikliği
-
-    printf("Girdiğiniz iki sayinin toplamı : %d \n", toplam);
-    printf("Girdiğiniz iki sayinin carpimi : %d \n", carpim);
-    printf("Girdiğiniz iki sayinin birbirine bolumu : %d \n", bolum);
-    printf("Girdiğiniz iki sayinin birbirine bölümünden kalan : %d \n", bolumKalan);
 }
