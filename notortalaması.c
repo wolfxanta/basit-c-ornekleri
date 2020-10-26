@@ -17,7 +17,7 @@ int main()
         printf("Dönem sonu notunuz: %.2f\n", ds);
         printf("AA ile dersten geçtiniz..\n");
     }
-    else if (ds >=85)
+    else if (ds >= 85)
     {
         printf("Dönem sonu notunuz: %.2f\n", ds);
         printf("BA ile dersten geçtiniz.\n");
