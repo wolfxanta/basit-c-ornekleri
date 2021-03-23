@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+// Bölme işlemi kullanmadan iki sayının birbirine bölümünü hesaplayan C kodu
 int main()
 {
     int bolunen,bolen,i;
